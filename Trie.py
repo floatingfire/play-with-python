@@ -15,7 +15,7 @@ class Trie:
                 cur.nextState[w]=TrieNode()
             cur=cur.nextState[w]
         cur.isAcceptable=True
-    def search(self,word):
+    def query(self,word):
         '''
         :type word: str
         :rtype: bool
